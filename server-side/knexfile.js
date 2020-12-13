@@ -1,8 +1,8 @@
 module.exports = {
   /**?
-   * Configuraçẽos do do banco Utilizado para desenvolvimento
+   * Configuraçẽos do do banco Utilizado para desenvolvimento SQlite
    */
-  development: {
+  /*   development: {
     client: "sqlite3",
     connection: {
       filename: "./src/database/db.sqlite",
@@ -11,7 +11,27 @@ module.exports = {
       directory: "./src/database/migrations",
     },
     useNullAsDefault: true,
+  }, */
+  /**?
+   * Configuraçẽos do do banco Utilizado para desenvolvimento PostgreSQL
+   */
+  development: {
+    client: "pg",
+    connection: {
+      database: "best_hero",
+      host: "localhost",
+      user: "postgres",
+      password: "07c09a97c#",
+    },
+    pool: {
+      min: 2,
+      max: 10,
+    },
+    migrations: {
+      directory: "./src/database/migrations",
+    },
   },
+
   /**?
    * Configuraçẽos do do banco Utilizado para desenvolvimento em grupo time de desenvolvimento
    */
