@@ -13,7 +13,7 @@ export default function Home() {
           <FaBars size={30} color="#ffffff" />
         </div>
         <div className="section-right-menu">
-         {/*  <img src={bestHeroImg} alt="" className="logo-menu" /> */}
+          <img src={bestHeroImg} alt="" className="logo-menu" />
         </div>
       </header>
     </div>
