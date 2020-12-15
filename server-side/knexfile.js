@@ -38,7 +38,7 @@ module.exports = {
   staging: {
     client: "postgresql",
     connection: {
-      database: DATA_BASE_NAME,
+      database: "db",
       user: "username",
       password: "password",
     },
@@ -54,7 +54,7 @@ module.exports = {
    * Configuraçẽos do do banco Utilizado para para implementação da aplicação
    */
 
-  production: {
+ /*  production: {
     client: "postgresql",
     connection: {
       database: DATABASE_NAME,
@@ -69,5 +69,5 @@ module.exports = {
     migrations: {
       tableName: "knex_migrations",
     },
-  },
+  }, */
 };
