@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./style-login.css";
 import bestHeroImg from "../../assets/logo.png";
 
 export default function Login() {
