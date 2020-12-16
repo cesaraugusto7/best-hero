@@ -7,7 +7,7 @@
 }
 .card-login {
   width: 329px;
-  height: 298px;
+  height: 302px;
   background: #000000;
   opacity: 0.76;
   border: 1px solid #000000;
@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
 }
-.logo-login{
+.logo-login {
   width: auto;
   height: 40px;
 }
@@ -31,17 +31,17 @@
   height: 65%;
   display: inherit;
 }
-.form-group {
+.form-group-login {
   display: grid;
-  margin-bottom: 33px;
+  margin-bottom: 27px;
   justify-content: center;
 }
-.section-form-login .form-group input {
+.section-form-login .form-group-login input {
   width: 296px;
   height: 31px;
   font-size: 14px;
 }
-.section-form-login .form-group label {
+.section-form-login .form-group-login label {
   font-size: 12px;
   color: white;
   font-weight: bolder;
@@ -64,13 +64,13 @@
   align-items: center;
   justify-content: center;
 }
-.sectio-footer-login a {
+.link-login {
   color: white;
   font-size: 14px;
   text-decoration: none;
   transition: font-size 0.2s;
 }
 
-.sectio-footer-login a:hover {
+.link-login:hover {
   font-size: 16px;
 }

@@ -31,17 +31,17 @@
   height: 65%;
   display: inherit;
 }
-.form-group {
+.form-group-register {
   display: grid;
   margin-bottom: 24px;
   justify-content: center;
 }
-.section-form-register .form-group input {
+.section-form-register .form-group-register input {
   width: 296px;
   height: 31px;
   font-size: 14px;
 }
-.section-form-register .form-group label {
+.section-form-register .form-group-register label {
   font-size: 12px;
   color: white;
   font-weight: bolder;
